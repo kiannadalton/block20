@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: yellow;
+  margin: 10px;
+}
+
+table {
+  outline: 2px solid white;
+  padding: 10px;
+  margin: 10px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+img {
+  height: 500px;
+  margin: 10px;
+  border: 2px solid;
+}
