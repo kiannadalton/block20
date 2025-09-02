@@ -63,3 +63,20 @@ kikiFavs.forEach((thing) => {
 const image = document.createElement("img");
 image.setAttribute("src", "kiki.jpeg");
 root.appendChild(image);
+
+table.addEventListener("click", changeBackground);
+
+function changeBackground() {
+  alert("You clicked on the table!");
+}
+const dialog = document.getElementById("my-modal");
+const openButton = document.getElementById("open-modal");
+const closeButton = document.getElementById("close-modal");
+
+openButton.addEventListener("click", () => {
+  dialog.show();
+});
+
+closeButton.addEventListener("click", () => {
+  dialog.close();
+});

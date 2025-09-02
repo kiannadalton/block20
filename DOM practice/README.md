@@ -13,3 +13,8 @@ The purpose of the DOM practice was to create a basic web page that demonstrated
 - Object.values()
 - object type variable
 - array type variable
+- modals
+- .addEventListener
+- .getElementById
+- alert()
+- dialog
