@@ -84,10 +84,10 @@ function addNumber(event) {
  * @param {Event} event the deepest element that was clicked
  */
 function onNumberClick(event) {
-    //we need the target of the event (see target by looking at console.log(event) and checking the inspect)
-  if(event.target.classList.contains("active")){
-    event.target.classList.remove('active');
+  //we need the target of the event (see target by looking at console.log(event) and checking the inspect)
+  if (event.target.classList.contains("active")) {
+    event.target.classList.remove("active");
   } else {
     event.target.classList.add("active");
-  };
+  }
 }

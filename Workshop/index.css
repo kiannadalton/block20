@@ -1,6 +1,6 @@
 body {
   padding: 1rem;
-  background-color: rgb(160, 182, 147)
+  background-color: rgb(160, 182, 147);
 }
 
 output {
@@ -9,14 +9,17 @@ output {
   padding: 0.5rem;
   border: 1px solid black;
   border-radius: 3px;
+  background-color: white;
 }
 
 #numberBank,
 #evens,
 #odds {
-  width: 50%
+  width: 50%;
 }
 
 button {
-  margin: 5px
+  margin: 5px;
 }
+
+
